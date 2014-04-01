@@ -1,0 +1,25 @@
+{
+  "name": "baconts",
+  "version": "0.7.10",
+  "description": "TypeScript wrapper for Bacon.js",
+  "author": "Bodil Stokke",
+  "license": "Apache-2",
+  "homepage": "https://github.com/bodil/baconts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bodil/baconts.git"
+  },
+  "keywords": ["bacon", "typescript"],
+  "scripts": {
+    "compile": "tsc --declaration --sourcemap --module commonjs --outDir . src/bacon.ts",
+    "watch": "tsc --watch --declaration --sourcemap --module commonjs --outDir . src/bacon.ts",
+    "postinstall": "npm run compile"
+  },
+  "dependencies": {
+    "baconjs": "0.7.10"
+  },
+  "devDependencies": {
+    "typescript": "0.9.7",
+    "tsd": "^0.5.7"
+  }
+}
