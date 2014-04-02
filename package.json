@@ -16,10 +16,7 @@
     "postinstall": "npm run compile"
   },
   "dependencies": {
-    "baconjs": "0.7.10"
-  },
-  "devDependencies": {
     "typescript": "0.9.7",
-    "tsd": "^0.5.7"
+    "baconjs": "0.7.10"
   }
 }
